@@ -3,24 +3,44 @@
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>rocking JS</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-		<!--[if lt IE 9]> HTML5Shiv
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>rocking JS</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--[if lt IE 9]> HTML5Shiv
 			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 
-	</head>
-	<body>
-	
+</head>
+
+<body>
+	<h1>RockingJS</h1>
+	<p>Select the module with properties to create a lib for you!</p>
+	<form action="download.html">
+		<label for="carousel">Carousel</label><input type="checkbox" name="carousel" />
+		<ul>
+			<li><label for="bullet">bullet</label><input type="checkbox" name="bullet" /></li>
+			<li><label for="pagination">pagination</label><input type="checkbox" name="pagination" /></li>
+			<li><label for="arrow">arrow</label><input type="checkbox" name="arrow" /></li>
+		</ul>
+		<label for="tab">Tab</label><input type="checkbox" name="tab" />
+		<ul>
+			<li><label for="horizontal">horizontal</label><input type="checkbox" name="horizontal" /></li>
+			<li><label for="dragable">dragable</label><input type="checkbox" name="dragable" /></li>
+		</ul>
+		<input type="submit" value="submit" />
+	</form>
 	<script type="text/javascript" src="core.js"></script>
 	<script type="text/javascript" src="module/carousel.js"></script>
 	<script type="text/javascript" src="module/tab.js"></script>
 	<script type="text/javascript" src="script.js"></script>
-	</body>
+</body>
+
 </html>
