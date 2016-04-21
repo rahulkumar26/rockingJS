@@ -2,6 +2,7 @@
 // 	console.log(object);
 // });
 
-RJS(['carousel'], function(object) {
-	object.init();
-});
+// RJS(['carousel'], function(object) {
+// 	object.init();
+// });
+
